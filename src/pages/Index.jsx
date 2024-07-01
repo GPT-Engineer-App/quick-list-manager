@@ -36,7 +36,7 @@ const Index = () => {
               placeholder="Add a new task"
               className="flex-1"
             />
-            <Button onClick={addTodo}>Add</Button>
+            <Button variant="green" onClick={addTodo}>Add</Button>
           </div>
           <div>
             {todos.map((todo, index) => (
